@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    width: 100%;
+}
+.row{
+    height: 90vh;
+    width: 86%;
+    box-shadow: 1px 1px 10px greenyellow;
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+/* Style de la page l'inscription */
+.row .sign-in{
+    background-color: #fff;
+    height: 100%;
+    border-radius: 30px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.row .sign-in h2{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.row .sign-in .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.row .sign-in .social-media .container-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.row .sign-in .social-media .container-icon:hover{
+    background-color: #000;
+}
+.row .sign-in .social-media .container-icon:hover .icon-sign-in{
+    color: #fff;
+}
+
+.row .sign-in .social-media .icon-sign-in{
+    font-size: 24px;
+}
+.row .sign-in p{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/* Style de la premiere partie des inputs */
+.row .sign-in .inputs-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.row .sign-in .inputs-1 input{
+    width: 400px;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #e8dede;
+}
+
+/* Style de la deuxieme partie des inputs */
+.row .sign-in .inputs-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.row .sign-in .inputs-2 input{
+    width: 400px;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #e8dede;
+}
+
+
+.row .sign-in a{
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.row .sign-in a:hover{
+    color: rgb(29, 121, 227);
+}
+
+.row .sign-in .last-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: bisque;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Style de la partie de salutation */
+.row #salutation{
+    background-color: rgb(237, 59, 10);
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.row #salutation h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.row #salutation p{
+    letter-spacing: 2px;
+    font-size: 17px;
+    text-align: center;
+}
+.row #salutation button{
+    width: 300px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.6s;
+}
+.row #salutation button:hover{
+    transform: translateY(-15%);
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.col-lg-6{
+    transition: 0.6s;
+}
